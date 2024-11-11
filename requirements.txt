@@ -2,4 +2,3 @@ nltk
 streamlit
 pandas
 numpy
-string
