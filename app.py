@@ -48,7 +48,7 @@ def transform_text(text):
 
 st.title("Suicidal Tendency Detection System")
 
-input_emotion = st.text_area("Enter your emotions.", "", key="input", height=100,  placeholder="Write your feelings here...")
+input_emotion = st.text_area("Express your emotions", "", key="input", height=100,  placeholder="Write your feelings here...")
 
 if st.button('Predict'):
     #1 Preprocess
