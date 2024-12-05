@@ -46,7 +46,7 @@ def transform_text(text):
     return " ".join(y)
 
 
-st.title("Suicidal Detection System")
+st.title("Suicidal Tendency Detection System")
 
 input_emotion = st.text_area("Enter your emotions.", "", key="input", height=100,  placeholder="Write your feelings here...")
 
@@ -63,7 +63,7 @@ if st.button('Predict'):
 
     #4 Dispaly
     if result == 1:
-        st.header("Suicidal")
+        st.header("Suicidal!!!")
     else:
         st.header("You are normal")
 
