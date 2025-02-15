@@ -46,7 +46,7 @@ def transform_text(text):
     return " ".join(y)
 
 
-st.title("Ritika darling")
+// st.title("Ritika darling")
 
 input_emotion = st.text_area("Express your emotions", "", key="input", height=100,  placeholder="Write your feelings here...")
 
